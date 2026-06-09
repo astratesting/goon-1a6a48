@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "Goon — Describe your business, get a live page in seconds.",
+    "description": "Goon turns a one-line description into a polished, conversion-ready landing page — copy, layout, and design handled. You just ship."
+  },
+  "nav": {
+    "links": [
+      { "label": "Features", "href": "#features" },
+      { "label": "How it works", "href": "#how-it-works" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": "Join waitlist"
+  },
+  "hero": {
+    "eyebrow": "PRIVATE BETA",
+    "headline": "Describe your business. Get a live page in seconds.",
+    "highlightWord": "live page",
+    "subhead": "Goon turns a one-line description into a polished, conversion-ready landing page — copy, layout, and design handled. You just ship.",
+    "ctaPrimary": "Join the waitlist",
+    "ctaSecondary": "See it in action",
+    "trustBadges": ["No credit card", "Invite-only beta", "Export any time"]
+  },
+  "techBadges": {
+    "label": "Built with",
+    "badges": ["Next.js", "Tailwind", "OpenAI", "Vercel"]
+  },
+  "features": {
+    "eyebrow": "FEATURES",
+    "headline": "Everything you need to ship a page that converts",
+    "subhead": "One tool replaces the designer, the copywriter, and the deploy pipeline.",
+    "items": [
+      {
+        "icon": "sparkles",
+        "title": "One-line generation",
+        "description": "Describe your business in plain English. Goon writes the copy, picks the layout, applies the design.",
+        "label": "01 / GENERATION"
+      },
+      {
+        "icon": "layout-template",
+        "title": "Conversion-tested templates",
+        "description": "Every generated page is structured around a proven landing page anatomy: hero, social proof, features, pricing, FAQ, CTA.",
+        "label": "02 / TEMPLATES"
+      },
+      {
+        "icon": "pencil",
+        "title": "Live editor",
+        "description": "Tweak any section in-place. Changes render in real time. No rebuilds, no deploys to preview.",
+        "label": "03 / EDITOR"
+      },
+      {
+        "icon": "palette",
+        "title": "Brand controls",
+        "description": "Lock in your colors, fonts, and voice. Every page stays on-brand without manual styling.",
+        "label": "04 / BRANDING"
+      },
+      {
+        "icon": "globe",
+        "title": "One-click publish",
+        "description": "Ship to a goon.page/your-slug URL on a custom domain, or export clean HTML/CSS you can host anywhere.",
+        "label": "05 / PUBLISH"
+      },
+      {
+        "icon": "bar-chart-3",
+        "title": "Built-in analytics",
+        "description": "See visits, signups, and conversion rate on a single dashboard. No third-party scripts to wire up.",
+        "label": "06 / ANALYTICS"
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "HOW IT WORKS",
+    "headline": "From idea to live page in three steps.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Describe.",
+        "description": "Type a sentence about what you do and who it's for. Add a link if you have one."
+      },
+      {
+        "num": "02",
+        "title": "Generate.",
+        "description": "Goon returns a complete page in under ten seconds — copy, layout, and styling, ready to review."
+      },
+      {
+        "num": "03",
+        "title": "Publish.",
+        "description": "Edit anything you want, hit publish, and share your URL. Custom domains supported on Pro."
+      }
+    ]
+  },
+  "demo": {
+    "eyebrow": "SEE IT IN ACTION",
+    "headline": "Watch Goon build a page.",
+    "terminalLines": [
+      { "prefix": ">", "text": "describe: \"a notetaking app for engineers who hate markdown\"" },
+      { "prefix": "✓", "text": "analyzing brief" },
+      { "prefix": "✓", "text": "drafting copy" },
+      { "prefix": "✓", "text": "selecting layout" },
+      { "prefix": "✓", "text": "applying theme" },
+      { "prefix": "✓", "text": "page ready · 8.4s" },
+      { "prefix": "→", "text": "/preview/quietcode" }
+    ],
+    "formPlaceholder": "Describe your business…",
+    "formButton": "Generate",
+    "demoTooltip": "Demo mode — join the waitlist to unlock generation"
+  },
+  "pricing": {
+    "eyebrow": "PRICING",
+    "headline": "Simple, ship-day pricing.",
+    "note": "Pricing final at launch. Early waitlist members lock in 30% off for life.",
+    "cta": "Join waitlist for early access",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "Free",
+        "period": "",
+        "features": [
+          "1 published page",
+          "goon.page subdomain",
+          "Goon branding in footer"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Pro",
+        "price": "$24",
+        "period": "/mo",
+        "features": [
+          "Unlimited pages",
+          "Custom domain",
+          "No Goon branding",
+          "Analytics",
+          "Priority generation queue"
+        ],
+        "popular": true
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Questions, answered.",
+    "items": [
+      {
+        "question": "When does Goon launch?",
+        "answer": "We're in private beta now and opening access gradually. Join the waitlist to get an invite."
+      },
+      {
+        "question": "Do I need to know how to code?",
+        "answer": "No. Describe your business in plain English. If you can write a tweet, you can use Goon."
+      },
+      {
+        "question": "Can I edit the page after it's generated?",
+        "answer": "Yes. Every section is editable in a live preview. Changes save instantly."
+      },
+      {
+        "question": "Can I export the code?",
+        "answer": "Pro plans can export clean HTML/CSS and host the page anywhere. Starter plans publish to a goon.page subdomain."
+      },
+      {
+        "question": "What about custom domains?",
+        "answer": "Custom domains are included on Pro. Connect any domain you own in two clicks."
+      },
+      {
+        "question": "Is my data private?",
+        "answer": "Your briefs and generated pages are private to your account. We don't train on your content."
+      }
+    ]
+  },
+  "finalCTA": {
+    "eyebrow": "GET EARLY ACCESS",
+    "headline": "Ship your page this week.",
+    "subhead": "Join the waitlist and be among the first to generate a landing page with Goon.",
+    "emailPlaceholder": "you@startup.com",
+    "button": "Join the waitlist",
+    "successHeading": "You're on the list.",
+    "successMessage": "Check your inbox for a confirmation.",
+    "successDuplicate": "You're already on the list.",
+    "disclaimer": "We'll email you when your invite is ready. No spam, ever."
+  },
+  "footer": {
+    "tagline": "Describe your business. Get a live page in seconds.",
+    "groups": [
+      {
+        "heading": "Product",
+        "links": [
+          { "label": "Features", "href": "#features" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Changelog", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Company",
+        "links": [
+          { "label": "About", "href": "#" },
+          { "label": "Blog", "href": "#" },
+          { "label": "Contact", "href": "#" }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "links": [
+          { "label": "Privacy", "href": "#" },
+          { "label": "Terms", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Goon",
+    "builtWith": "Built somewhere on the internet"
+  }
+}
